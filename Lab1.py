@@ -1,13 +1,15 @@
 #Lab1
 #
 #Solve biquadratic equation
+#
+#Задание решено с помощью классов, возможно будет изменяться, по ходу изучения языка
 class Equation:
     def __init__(self, a, b, c):
         self.a = a
         self.b = b
         self.c = c
     def getDiscriminant(self):
-        return int(self.b)*int(self.b)-4*int(self.a)*int(self.c)
+        return int(self.b)*int(self.b)-4*int(self.a)*int(self.c) #разбирался с конструкцией self
 
     def getSolve(self):
         num = self.getDiscriminant()
