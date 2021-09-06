@@ -1,3 +1,6 @@
+#Lab1
+#
+#Solve biquadratic equation
 class Equation:
     def __init__(self, a, b, c):
         self.a = a
