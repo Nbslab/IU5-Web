@@ -1,1 +1,8 @@
 .idea/
+bmstu/
+RK2/.idea/
+RK2/db.sqlite3
+RK2/venvg
+RK2/RK2/__pycache__/
+RK2/master/__pycache__/
+RK2/master/migrations/__pycache__/

@@ -1,0 +1,29 @@
+{% block title %} Рубежный контроль №2. Незаметдинов Тимур РТ5-51Б. Вариант Программа - Компьютер {% endblock %}
+{% block body %}
+    <div>
+    <div>
+    <table>
+        <thead>
+        <tr>
+            <th scope="col">ID</th>
+            <th scope="col">Название</th>
+            <th scope="col">Название компьютера</th>
+            <th scope="col">Занимаемая память</th>
+            <th scope="col">Операционная система</th>
+        </tr>
+        </thead>
+        <tbody>
+        {% for prog in data.programs %}
+            <tr>
+                <th scope="row">{{ prog.id }}</th>
+                <td>{{ prog.name }}</td>
+                <td>{{ prog.pcs.name }}</td>
+                <td>{{ prog.storage_usage }}</td>
+                <td>{{ prog.pcs.op_system }}</td>
+            </tr>
+        {% endfor %}
+        </tbody>
+    </table>
+    </div>
+    </div>
+{% endblock %}
