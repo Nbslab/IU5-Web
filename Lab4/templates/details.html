@@ -1,0 +1,33 @@
+{% load static %}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>{{city.name}}</title>
+</head>
+<body>
+    <div>
+        <a href="/" class="back">На главную</a>
+        <div>
+            <div>
+                <h1>{{city.name}}</h1>
+                <img src="/static/{{city.id}}.png" width="200" height="247"/>
+            </div>
+            <div>
+                <h3>Информация о городе</h3>
+                <table>
+                    <tr>
+                        <td>Название города</td>
+                        <td>{{city.name}}</td>
+                    </tr>
+                    <tr>
+                        <td>Возраст города</td>
+                        <td>{{city.age}}</td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

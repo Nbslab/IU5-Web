@@ -2,7 +2,16 @@
 bmstu/
 RK2/.idea/
 RK2/db.sqlite3
-RK2/venvg
+RK2/venv
 RK2/RK2/__pycache__/
 RK2/master/__pycache__/
 RK2/master/migrations/__pycache__/
+Lab4/.idea/
+Lab4/db.sqlite3
+Lab4/Lab4/__pycache__/
+Lab4/city/__pycache__/
+Lab4/city/migrations/__pycache__
+Lab4/1.png
+Lab4/2.png
+Lab4/3.png
+Lab4/__pycache__/
