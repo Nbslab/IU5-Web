@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>{{city.name}}</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+          integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+</head>
+<body>
+    <div>
+        <div>
+            <div>
+                <h1>{{city.name}}</h1>
+            </div>
+            <div>
+                <h3>Информация о городе</h3>
+                <table class="table table-bordered">
+                    <tr>
+                        <td>Название города</td>
+                        <td>{{city.name}}</td>
+                    </tr>
+                    <tr>
+                        <td>Возраст города</td>
+                        <td>{{city.age}}</td>
+                    </tr>
+                    <tr>
+                        <td>Регион</td>
+                        <td>{{city.reg.name}}</td>
+                    </tr>
+                    <tr>
+                        <td>Площадь региона</td>
+                        <td>{{city.reg.square}}</td>
+                    </tr>
+                </table>
+                    <a href="/details/{{city.id}}/edit" class="btn btn-primary ms-3 mt-5"
+           role="button">Изменить</a>
+                <a href="/" class="btn btn-primary ms-3 mt-5" role="button">На главную</a>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
